@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Clínica Dental Castellón en La Laguna, Tenerife. Tratamientos dentales de calidad: limpiezas, blanqueamiento, ortodoncia, urgencias. 5 estrellas en Google. Llama al 661 67 24 91." />
+  <meta name="keywords" content="clínica dental La Laguna, dentista Tenerife, blanqueamiento dental, ortodoncia, urgencias dentales, limpieza dental Tenerife" />
+  <meta name="author" content="Clínica Dental Castellón" />
+  <meta property="og:title" content="Clínica Dental Castellón – Tu dentista de confianza en La Laguna" />
+  <meta property="og:description" content="Más de 9 pacientes satisfechos con valoración 5 estrellas. Pide tu cita hoy." />
+  <meta property="og:type" content="website" />
+  <title>Clínica Dental Castellón | La Laguna, Tenerife</title>
+
+  <!-- Tipografía: Figtree + Noto Sans (Medical Clean #30 - UI/UX Pro Max Skill) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="navbar__logo" aria-label="Clínica Dental Castellón - Inicio">
+        <span class="logo-icon" aria-hidden="true">🦷</span>
+        <span class="logo-text">Dental <strong>Castellón</strong></span>
+      </a>
+
+      <nav class="navbar__links" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#opiniones" class="nav-link">Opiniones</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <a href="tel:661672491" class="btn btn--primary btn--sm navbar__cta" aria-label="Llamar a la clínica">
+        <i data-lucide="phone" aria-hidden="true"></i>
+        661 67 24 91
+      </a>
+
+      <button class="navbar__toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menú de navegación" hidden>
+      <nav class="mobile-menu__links">
+        <a href="#inicio" class="mobile-nav-link">Inicio</a>
+        <a href="#nosotros" class="mobile-nav-link">Nosotros</a>
+        <a href="#servicios" class="mobile-nav-link">Servicios</a>
+        <a href="#opiniones" class="mobile-nav-link">Opiniones</a>
+        <a href="#contacto" class="mobile-nav-link">Contacto</a>
+        <a href="tel:661672491" class="btn btn--primary btn--full">
+          <i data-lucide="phone" aria-hidden="true"></i> Llamar ahora
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__gradient"></div>
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+        <div class="hero__blob hero__blob--3"></div>
+        <div class="hero__pattern"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content" data-animate="fade-up">
+          <div class="hero__badge">
+            <span class="badge__stars" aria-label="5 estrellas">★★★★★</span>
+            <span>5.0 · 9 reseñas verificadas en Google</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero__title">
+            Tu clínica dental<br />
+            <span class="text-gradient">de confianza</span><br />
+            en La Laguna
+          </h1>
+
+          <p class="hero__subtitle">
+            Cuidamos tu sonrisa con profesionalidad, cercanía y tecnología moderna.
+            Más de 9 pacientes nos avalan con la máxima puntuación.
+          </p>
+
+          <div class="hero__ctas">
+            <a href="#contacto" class="btn btn--primary btn--lg" aria-label="Pedir cita en la clínica dental">
+              <i data-lucide="calendar" aria-hidden="true"></i>
+              Pedir cita
+            </a>
+            <a href="tel:661672491" class="btn btn--outline btn--lg" aria-label="Llamar al 661 67 24 91">
+              <i data-lucide="phone" aria-hidden="true"></i>
+              Llamar ahora
+            </a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust-item">
+              <i data-lucide="shield-check" aria-hidden="true"></i>
+              <span>Atención personalizada</span>
+            </div>
+            <div class="trust-item">
+              <i data-lucide="clock" aria-hidden="true"></i>
+              <span>Abierto desde las 09:00</span>
+            </div>
+            <div class="trust-item">
+              <i data-lucide="zap" aria-hidden="true"></i>
+              <span>Urgencias dentales</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true" data-animate="fade-left">
+          <div class="hero__card-main">
+            <div class="hero__img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80"
+                alt="Dentista profesional en consulta"
+                width="500"
+                height="400"
+                loading="eager"
+              />
+            </div>
+          </div>
+          <div class="hero__stat-card hero__stat-card--1">
+            <span class="stat-number">5.0</span>
+            <span class="stat-label">★ Google</span>
+          </div>
+          <div class="hero__stat-card hero__stat-card--2">
+            <i data-lucide="users" aria-hidden="true"></i>
+            <span>+9 pacientes<br/>satisfechos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave -->
+    <div class="wave-divider" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="60" width="100%">
+        <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#0EA5E9"/>
+      </svg>
+    </div>
+
+    <!-- ========== STATS BANNER ========== -->
+    <section class="stats-banner" aria-label="Estadísticas de la clínica">
+      <div class="container stats-banner__inner">
+        <div class="stat-box">
+          <strong data-count="5.0" data-decimals="1">5.0</strong>
+          <span>Valoración media</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-box">
+          <strong data-count="9">9</strong>
+          <span>Reseñas Google</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-box">
+          <strong data-count="7">7</strong>
+          <span>Tratamientos</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-box">
+          <strong>09:00</strong>
+          <span>Apertura diaria</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wave -->
+    <div class="wave-divider" aria-hidden="true" style="background:#0EA5E9">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" height="60" width="100%">
+        <path d="M0,30 C480,0 960,60 1440,20 L1440,60 L0,60 Z" fill="#FFFFFF"/>
+      </svg>
+    </div>
+
+    <!-- ========== SOBRE NOSOTROS ========== -->
+    <section class="about" id="nosotros" aria-labelledby="about-heading">
+      <div class="container about__inner">
+        <div class="about__visual" data-animate="fade-right">
+          <div class="about__img-grid">
+            <img
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80"
+              alt="Equipo de la clínica dental Castellón"
+              width="300"
+              height="350"
+              loading="lazy"
+              class="about__img about__img--main"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=400&q=80"
+              alt="Consulta dental moderna"
+              width="220"
+              height="220"
+              loading="lazy"
+              class="about__img about__img--secondary"
+            />
+          </div>
+          <div class="about__experience-badge">
+            <i data-lucide="heart" aria-hidden="true"></i>
+            <span>Trato<br/>cercano</span>
+          </div>
+        </div>
+
+        <div class="about__content" data-animate="fade-left">
+          <div class="section-label">Sobre nosotros</div>
+          <h2 id="about-heading" class="section-title">
+            Más que una clínica,<br />somos tu familia dental
+          </h2>
+          <p class="section-text">
+            En <strong>Clínica Dental Castellón</strong> entendemos que visitar al dentista puede generar nervios.
+            Por eso nuestro equipo trabaja cada día para que te sientas cómodo, informado y en buenas manos
+            desde el primer momento hasta el último.
+          </p>
+          <p class="section-text">
+            Ubicados en el corazón de <strong>La Laguna, Tenerife</strong>, combinamos tecnología moderna
+            con un trato humano y cercano. Aquí no eres un número: eres parte de nuestra comunidad.
+          </p>
+
+          <ul class="about__values" aria-label="Nuestros valores">
+            <li class="value-item">
+              <span class="value-icon" aria-hidden="true"><i data-lucide="check-circle"></i></span>
+              <div>
+                <strong>Honestidad y transparencia</strong>
+                <p>Te explicamos cada tratamiento con claridad, sin sorpresas.</p>
+              </div>
+            </li>
+            <li class="value-item">
+              <span class="value-icon" aria-hidden="true"><i data-lucide="check-circle"></i></span>
+              <div>
+                <strong>Tecnología de vanguardia</strong>
+                <p>Equipos modernos para un diagnóstico más preciso y cómodo.</p>
+              </div>
+            </li>
+            <li class="value-item">
+              <span class="value-icon" aria-hidden="true"><i data-lucide="check-circle"></i></span>
+              <div>
+                <strong>Precio justo</strong>
+                <p>Calidad y precio insuperable. Sin letra pequeña.</p>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#contacto" class="btn btn--primary">
+            Pide tu primera visita
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICIOS ========== -->
+    <section class="services" id="servicios" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-label">Nuestros tratamientos</div>
+          <h2 id="services-heading" class="section-title">¿Qué podemos hacer por ti?</h2>
+          <p class="section-subtitle">Ofrecemos una amplia gama de tratamientos dentales para toda la familia</p>
+        </div>
+
+        <div class="services__grid" role="list">
+
+          <article class="service-card" role="listitem" data-animate="fade-up" style="--delay: 0ms">
+            <div class="service-card__icon" aria-hidden="true">
+              <i data-lucide="droplets"></i>
+            </div>
+            <h3 class="service-card__title">Limpiezas dentales</h3>
+            <p class="service-card__text">Eliminamos el sarro y la placa bacteriana para mantener tu boca sana y tu sonrisa brillante.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Pedir cita para limpieza dental">
+              Pedir cita <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card" role="listitem" data-animate="fade-up" style="--delay: 80ms">
+            <div class="service-card__icon service-card__icon--yellow" aria-hidden="true">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h3 class="service-card__title">Blanqueamiento dental</h3>
+            <p class="service-card__text">Recupera el blanco natural de tus dientes con nuestros tratamientos seguros y eficaces.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Pedir cita para blanqueamiento">
+              Pedir cita <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card" role="listitem" data-animate="fade-up" style="--delay: 160ms">
+            <div class="service-card__icon service-card__icon--teal" aria-hidden="true">
+              <i data-lucide="shield"></i>
+            </div>
+            <h3 class="service-card__title">Empastes</h3>
+            <p class="service-card__text">Tratamos las caries con materiales del color del diente para un resultado natural y duradero.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Pedir cita para empastes">
+              Pedir cita <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card" role="listitem" data-animate="fade-up" style="--delay: 240ms">
+            <div class="service-card__icon service-card__icon--purple" aria-hidden="true">
+              <i data-lucide="smile"></i>
+            </div>
+            <h3 class="service-card__title">Ortodoncia</h3>
+            <p class="service-card__text">Alineamos tus dientes con brackets o alineadores invisibles para una sonrisa perfecta.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Pedir cita para ortodoncia">
+              Pedir cita <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card service-card--urgent" role="listitem" data-animate="fade-up" style="--delay: 320ms">
+            <div class="service-card__icon service-card__icon--red" aria-hidden="true">
+              <i data-lucide="zap"></i>
+            </div>
+            <h3 class="service-card__title">Urgencias dentales</h3>
+            <p class="service-card__text">¿Dolor de muelas? Te atendemos con rapidez y eficacia. Llámanos y te ayudamos.</p>
+            <a href="tel:661672491" class="service-card__link service-card__link--urgent" aria-label="Llamar por urgencia dental">
+              Llamar ahora <i data-lucide="phone" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card" role="listitem" data-animate="fade-up" style="--delay: 400ms">
+            <div class="service-card__icon service-card__icon--green" aria-hidden="true">
+              <i data-lucide="stethoscope"></i>
+            </div>
+            <h3 class="service-card__title">Revisiones</h3>
+            <p class="service-card__text">La prevención es la mejor medicina. Revisiones completas para detectar problemas a tiempo.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Pedir cita para revisión">
+              Pedir cita <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="service-card service-card--wide" role="listitem" data-animate="fade-up" style="--delay: 480ms">
+            <div class="service-card__icon service-card__icon--blue" aria-hidden="true">
+              <i data-lucide="message-circle"></i>
+            </div>
+            <h3 class="service-card__title">Asesoramiento personalizado</h3>
+            <p class="service-card__text">Cada boca es única. Te ofrecemos un plan de tratamiento a medida, explicado paso a paso, sin tecnicismos y con total transparencia.</p>
+            <a href="#contacto" class="service-card__link" aria-label="Solicitar asesoramiento personalizado">
+              Solicitar asesoramiento <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <section class="testimonials" id="opiniones" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <div class="section-label">Lo que dicen nuestros pacientes</div>
+          <h2 id="testimonials-heading" class="section-title">9 pacientes, 5 estrellas</h2>
+          <p class="section-subtitle">Opiniones reales de Google. Sin filtros.</p>
+
+          <div class="rating-summary" aria-label="Valoración media 5 de 5">
+            <span class="rating-number">5.0</span>
+            <div class="rating-stars" aria-hidden="true">★★★★★</div>
+            <span class="rating-count">9 reseñas en Google</span>
+          </div>
+        </div>
+
+        <div class="testimonials__slider" id="testimonialsSlider" role="region" aria-label="Testimonios de pacientes">
+          <div class="testimonials__track" id="testimonialsTrack">
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Buen trato, bastante amables. Te dan toda la información y buen trabajo."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">P</div>
+                <div>
+                  <strong>Paciente verificado</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Súper contenta desde el principio hasta el final. Me hicieron sentir cómoda y me dieron consejos para cuidar mis dientes."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">M</div>
+                <div>
+                  <strong>Paciente verificada</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Excelente trato, muy profesional y tranquilizadora en momentos urgentes."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">A</div>
+                <div>
+                  <strong>Paciente verificada</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Mi dentista de confianza. Gran profesionalidad y trato excepcional."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">J</div>
+                <div>
+                  <strong>Paciente verificado</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Muy buenos profesionales y muy amables."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">L</div>
+                <div>
+                  <strong>Paciente verificada</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Trato cercano y profesional. Calidad/precio insuperable."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">R</div>
+                <div>
+                  <strong>Paciente verificado</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" role="article" aria-label="Testimonio de paciente">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <blockquote class="testimonial-card__text">
+                "Te sientes como en familia, realmente les importas."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">C</div>
+                <div>
+                  <strong>Paciente verificada</strong>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="testimonials__controls" aria-label="Controles del carrusel">
+          <button class="slider-btn" id="prevBtn" aria-label="Testimonio anterior">
+            <i data-lucide="chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Ir al testimonio"></div>
+          <button class="slider-btn" id="nextBtn" aria-label="Siguiente testimonio">
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="container cta-banner__inner" data-animate="fade-up">
+        <div class="cta-banner__content">
+          <h2 id="cta-heading">¿Listo para recuperar tu sonrisa?</h2>
+          <p>Primera visita sin compromiso. Llámanos o escríbenos por WhatsApp.</p>
+        </div>
+        <div class="cta-banner__actions">
+          <a href="tel:661672491" class="btn btn--white btn--lg" aria-label="Llamar ahora al 661 67 24 91">
+            <i data-lucide="phone" aria-hidden="true"></i>
+            661 67 24 91
+          </a>
+          <a href="https://wa.me/34661672491?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20Cl%C3%ADnica%20Dental%20Castell%C3%B3n." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section class="contact" id="contacto" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+
+        <div class="contact__info" data-animate="fade-right">
+          <div class="section-label">Contacto</div>
+          <h2 id="contact-heading" class="section-title">Estamos aquí para ayudarte</h2>
+
+          <div class="contact__details">
+            <div class="contact-item">
+              <div class="contact-item__icon" aria-hidden="true">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <strong>Dirección</strong>
+                <address>
+                  Calle Jorge Manrique, 14, Local 3<br />
+                  38207 La Laguna<br />
+                  Santa Cruz de Tenerife, España
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon" aria-hidden="true">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <strong>Teléfono</strong>
+                <a href="tel:661672491" class="contact-link">661 67 24 91</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon" aria-hidden="true">
+                <i data-lucide="clock"></i>
+              </div>
+              <div>
+                <strong>Horario</strong>
+                <ul class="schedule-list">
+                  <li><span>Lunes – Viernes</span><span>09:00 – 20:00</span></li>
+                  <li><span>Sábado</span><span>09:00 – 14:00</span></li>
+                  <li><span>Domingo</span><span>Cerrado</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon contact-item__icon--whatsapp" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/34661672491?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20Cl%C3%ADnica%20Dental%20Castell%C3%B3n." class="contact-link" target="_blank" rel="noopener noreferrer">
+                  Enviar mensaje
+                </a>
+              </div>
+            </div>
+
+            <!-- Google Maps -->
+            <div class="map-inline">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.6!2d-16.3186!3d28.4853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCalle+Jorge+Manrique+14+La+Laguna+Tenerife!5e0!3m2!1ses!2ses!4v1"
+                width="100%"
+                height="220"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ubicación de Clínica Dental Castellón en La Laguna, Tenerife"
+                aria-label="Mapa de localización de la clínica"
+              ></iframe>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Formulario -->
+        <div class="contact__form-wrapper" data-animate="fade-left">
+          <form class="contact-form" id="contactForm" novalidate aria-labelledby="form-heading">
+            <h3 id="form-heading" class="form-title">Pide tu cita</h3>
+            <p class="form-subtitle">Rellena el formulario y te llamamos en menos de 24h.</p>
+
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre completo <span aria-label="campo obligatorio">*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Tu nombre"
+                required
+                autocomplete="name"
+                aria-required="true"
+              />
+              <span class="form-error" id="nameError" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Teléfono <span aria-label="campo obligatorio">*</span></label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form-input"
+                placeholder="612 345 678"
+                required
+                autocomplete="tel"
+                inputmode="tel"
+                aria-required="true"
+              />
+              <span class="form-error" id="phoneError" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="service" class="form-label">Servicio de interés</label>
+              <select id="service" name="service" class="form-input form-select">
+                <option value="">Selecciona un servicio</option>
+                <option value="limpieza">Limpieza dental</option>
+                <option value="blanqueamiento">Blanqueamiento dental</option>
+                <option value="empaste">Empaste</option>
+                <option value="ortodoncia">Ortodoncia</option>
+                <option value="urgencia">Urgencia dental</option>
+                <option value="revision">Revisión</option>
+                <option value="asesoramiento">Asesoramiento personalizado</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje (opcional)</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="Cuéntanos cómo podemos ayudarte..."
+                rows="3"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn" aria-live="polite">
+              <i data-lucide="send" aria-hidden="true"></i>
+              <span id="submitText">Enviar solicitud</span>
+            </button>
+
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite" hidden>
+              <i data-lucide="check-circle" aria-hidden="true"></i>
+              ¡Gracias! Te llamaremos lo antes posible.
+            </div>
+
+            <p class="form-privacy">
+              <i data-lucide="lock" aria-hidden="true"></i>
+              Tus datos están seguros. No compartimos tu información.
+            </p>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="navbar__logo" aria-label="Clínica Dental Castellón">
+          <span class="logo-icon" aria-hidden="true">🦷</span>
+          <span class="logo-text">Dental <strong>Castellón</strong></span>
+        </a>
+        <p>Tu clínica dental de confianza en La Laguna, Tenerife. Cuidamos tu sonrisa como si fuera la nuestra.</p>
+        <div class="footer__rating" aria-label="Valoración 5 estrellas en Google">
+          <span aria-hidden="true">★★★★★</span>
+          <span>5.0 en Google</span>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Limpiezas dentales</a></li>
+          <li><a href="#servicios">Blanqueamiento</a></li>
+          <li><a href="#servicios">Ortodoncia</a></li>
+          <li><a href="#servicios">Urgencias</a></li>
+          <li><a href="#servicios">Revisiones</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contacto</h4>
+        <address>
+          <p><i data-lucide="map-pin" aria-hidden="true"></i> C/ Jorge Manrique, 14, Local 3<br />38207 La Laguna, Tenerife</p>
+          <p><a href="tel:661672491"><i data-lucide="phone" aria-hidden="true"></i> 661 67 24 91</a></p>
+          <p><i data-lucide="clock" aria-hidden="true"></i> Lun–Vie: 09:00–20:00 · Sáb: 09:00–14:00</p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2024 Clínica Dental Castellón. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING BUTTONS ========== -->
+  <div class="floating-buttons" aria-label="Botones de contacto rápido">
+    <a
+      href="https://wa.me/34661672491?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20cita%20en%20Cl%C3%ADnica%20Dental%20Castell%C3%B3n."
+      class="fab fab--whatsapp"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contactar por WhatsApp"
+    >
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span class="fab__tooltip">WhatsApp</span>
+    </a>
+
+    <a href="tel:661672491" class="fab fab--call" aria-label="Llamar al 661 67 24 91">
+      <i data-lucide="phone" aria-hidden="true"></i>
+      <span class="fab__tooltip">Llamar</span>
+    </a>
+  </div>
+
+  <!-- Cursor glow (desktop) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+    <i data-lucide="chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
