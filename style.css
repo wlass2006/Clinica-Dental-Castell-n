@@ -816,6 +816,8 @@ h1, h2, h3, h4, h5, h6 {
 .fab--call { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); box-shadow: 0 6px 20px var(--primary-glow); }
 .fab--call [data-lucide] { width: 22px; height: 22px; }
 
+@media (min-width: 769px) { .fab--call { display: none; } }
+
 .fab__tooltip {
   position: absolute; right: calc(100% + 12px); top: 50%;
   transform: translateY(-50%) translateX(6px);
